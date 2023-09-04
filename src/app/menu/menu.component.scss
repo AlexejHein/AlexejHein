@@ -15,6 +15,7 @@ header{
         margin-left: 20px;
         margin-top: 10px;
         object-fit: cover;
+        cursor: pointer;
     }
     div{
         display: flex;
@@ -32,4 +33,16 @@ header{
         }
     }
     
+}
+.darkLink{
+    a{
+    color: #000000;
+    &:hover{
+        border-bottom: 2px solid rgb(146, 50, 50);
+    }
+}
+}
+.headerDark{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
